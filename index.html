@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylemain.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Chloe's Personal Website</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="imgs/logo.svg">
+    </a>
+
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <section>
+    <img src="imgs/stars.png" id="stars">
+    <img src="imgs/moon.png" id="moon">
+    <img src="imgs/trees_behind.png" id="trees_behind">
+    <h2 id="text">Welcome.</h2>
+    <a href="#sec" id="btn">Explore more!</a>
+    <img src="imgs/trees_front.png" id="trees_front">
+  </section>
+
+  <div class="sec" id="sec">
+    <h2>Hi, I'm Chloe.</h2>
+    <p>I am currently a student studying at Republic Polytechnic and in the Digital Design & Development course.
+      Although taking art in O-level was stressful, that will not stop me as I still wish to improve my skills even
+      further.
+      <br><br>Here, you will be able to see the various artworks or apps that I have done or created so far using
+      various
+      softwares such
+      as Adobe Illustrator,
+      Adobe XD, Android Studio and more. There will also be a brief introduction to each of the pages linked
+      to this main page. If you want to find out more, just click on the button provided in each of the
+      sections!<br><br>
+    </p>
+
+    <a id="arrownav" href="#about">&#8595; Find out more &#8595;</a>
+  </div>
+
+  <div class="about" id="about">
+    <h2><u>MY SKILLS</u></h2>
+    <p>Illustrator: <br><br></p>
+  </div>
+
+  <section id="works" class="works">
+    <h2><u>ARTWORKS</u></h2>
+    <img src="imgs/hi.png" id="trees_front">
+  </section>
+
+  <section id="contact" class="contact">
+    <h2><u>CONTACT ME</u></h2>
+    <i class="fa fa-twitter" style="font-size:48px;color:red"></i>
+    <br>
+  </section>
+
+  <script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let trees_behind = document.getElementById('trees_behind');
+    let trees_front = document.getElementById('trees_front');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let header = document.querySelector('header');
+
+    window.addEventListener('scroll', function () {
+      let value = window.scrollY;
+      stars.style.left = value * 0.25 + 'px';
+      moon.style.top = value * 1.05 + 'px';
+      trees_behind.style.top = value * 0.5 + 'px';
+      text.style.marginBottom = value * 1 + 'px';
+      btn.style.marginTop = value * 1 + 'px';
+      header.style.top = value * 0.5 + 'px';
+    })
+  </script>
+
+</body>
+
+</html>

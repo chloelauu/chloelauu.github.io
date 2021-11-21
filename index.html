@@ -7,10 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="stylemain.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Chloe's Personal Website</title>
 </head>
 
 <body>
+
+  <button id="to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
   <header>
     <a href="index.html" class="logo">
       <img src="imgs/logo.svg">
@@ -28,43 +35,86 @@
     <img src="imgs/stars.png" id="stars">
     <img src="imgs/moon.png" id="moon">
     <img src="imgs/trees_behind.png" id="trees_behind">
-    <h2 id="text">Welcome.</h2>
+    <h2 id="text">Hi, I'm Chloe.</h2>
     <a href="#sec" id="btn">Explore more!</a>
     <img src="imgs/trees_front.png" id="trees_front">
   </section>
 
-   <div class="sec" id="sec">
-    <h2>Hi, I'm Chloe.</h2>
+  <div class="sec" id="sec">
+    <h2><i>Who am I, you may ask?</i></h2>
     <p>I am currently a student studying at Republic Polytechnic and in the Digital Design & Development course.
       Although taking art in O-level was stressful, that will not stop me as I still wish to improve my skills even
-      further.
-      <br><br>Here, you will be able to see the various artworks or apps that I have done or created so far using
+      further therefore I chose to pursue in this course.
+      <br><br>On my website, you will be able to see the various artworks or apps that I have done or created so far
+      using
       various
       softwares such
       as Adobe Illustrator,
       Adobe XD, Android Studio and more. There will also be a brief introduction to each of the pages linked
-      to this main page. If you want to find out more, just click on the button provided in each of the
-      sections!<br><br>
+      to this main page. If you want to find out more, just click on any button provided in each of the
+      sections below!<br><br>
     </p>
 
     <a id="arrownav" href="#about">&#8595; Find out more &#8595;</a>
   </div>
 
   <div class="about" id="about">
-    <h2><u></u></h2>
-    <p>Illustrator: <br><br></p>
+    <h2><i><span>&#8505;</span> Information</i></h2>
+    <h3>--= Scroll down to view other sections =--</h3>
+
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="imgs/card1about.jpg" alt="About Me" />
+          <div class="card-content">
+            <h1 class="card-header">About Me</h1>
+            <p class="card-text">
+              Hi! This section will lead you to the "About" page, where you will get to know about me more
+              in depth!</p>
+            <a href="about.html" class="card-btn">
+              Visit <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="imgs/card2works.jpg" alt="Works" />
+          <div class="card-content">
+            <h1 class="card-header">My Works</h1>
+            <p class="card-text">
+              Hi! This section will lead you to the "artworks" page, where you will see all of the
+              works I have done or created so far!</p>
+            <a href="works.html" class="card-btn">
+              Visit <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="imgs/card3contact.jpg" alt="Contact" />
+          <div class="card-content">
+            <h1 class="card-header">Contact Me</h1>
+            <p class="card-text">
+              Hi! This section will lead you to the "Contacts" page, where you will see all my contact details including
+              which platform I am usually active on.</p>
+            <a href="contact.html" class="card-btn">
+              Visit <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <section id="works" class="works">
-    <h2><u>ARTWORKS</u></h2>
-    <img src="imgs/hi.png" id="trees_front">
-  </section>
+  <footer>
+    <div class="container text-center"> © Copyright 2021 - Chloe Lau</div>
+  </footer>
 
-  <section id="contact" class="contact">
-    <h2><u>CONTACT ME</u></h2>
-    <i class="fa fa-twitter" style="font-size:48px;color:red"></i>
-    <br>
-  </section>
+  <script src="main.js"></script>
 
   <script>
     let stars = document.getElementById('stars');

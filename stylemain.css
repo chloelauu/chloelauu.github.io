@@ -11,50 +11,10 @@
 body {
   min-height: 100vh;
   overflow-x: hidden;
+  display: grid;
+  justify-content: end;
+  align-content: end;
   background: linear-gradient(#279564, #87ba51)
-}
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 10000;
-}
-
-header .logo {
-  z-index: 1000000;
-  width: 90px;
-  height: 50px;
-  margin-right: 200px;
-}
-
-header ul {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-header ul li {
-  list-style: none;
-  margin-left: 20px;
-}
-
-header ul li a {
-  text-decoration: none;
-  padding: 6px 15px;
-  color: #fff;
-  border-radius: 20px;
-}
-
-header ul li a:hover,
-header ul li a.active {
-  background: #fff;
-  color:#5f497d;
 }
 
 section {
@@ -75,7 +35,7 @@ section::before {
   width: 100%;
   height: 100px;
   background: linear-gradient(to top, #1c0522, transparent);
-  z-index: 1000;
+  z-index: 50;
 }
 
 section img {
@@ -342,12 +302,3 @@ section img#trees_front {
     transform: translate3d(0, 100%, 0);
   }
 }
-
-footer {
-	text-align: center;
-	padding-top: 15px;
-  background-color: #1c0522;
-  color: #fff;
-  height: 12px;
-}
-

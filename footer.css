@@ -4,7 +4,7 @@ footer {
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    z-index: 9999;
+    z-index: 99999;
     background: #5c837f;
     min-height: 40px;
     bottom: 0;

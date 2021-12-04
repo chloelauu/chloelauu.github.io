@@ -5,4 +5,7 @@
 - My Artworks
 - Contact
 
-Involves parallel scroll effect
+Involves:
+- Parallel scroll effect
+- Transitions
+- Scroll bar layout changed

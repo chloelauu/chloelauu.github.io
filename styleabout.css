@@ -23,14 +23,14 @@ body {
     text-align: left;
     position: absolute;
     top: 370px;
-    left: 600px;
+    left: 609px;
     transform: translate(-50%, -50%);
     padding: 20px;
     box-sizing: border-box;
     background: #5c837f;
     border-radius: 4px;
     display: flex;
-    width: 1000px;
+    width: 1020px;
     height: 420px;
 }
 
@@ -254,7 +254,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     margin-top: 40px;
-    margin-left: 190px;
+    margin-left: 195px;
 }
 
 .slides {
@@ -327,7 +327,7 @@ body {
 
 .navigation-auto div {
     border: 3px solid #9f6dd8;
-    padding: 5px;
+    padding: 5 px;
     border-radius: 10px;
     transition: 1s;
 }
@@ -407,3 +407,17 @@ body {
 footer {
     margin-top: 50px;
 }
+
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+  

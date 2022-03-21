@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* 
+html {
+  height: 1000px;
+} */
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    background: #26152b;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
+nav::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+nav::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: #33ccff;
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    margin-top: 50px;
+    margin-left: 5rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    margin-left: 627px;
+    margin-top: 12px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 600ms ease;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 999999;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.fa-primary {
+    color: #ff7eee;
+}
+
+.fa-secondary {
+    color: #df49a6;
+}
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+
+.logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+}
+
+.logo-text {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+    transform: rotate(-180deg);
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar2 {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbar:hover {
+        width: 16rem;
+    }
+
+    .navbar:hover .link-text {
+        display: inline;
+    }
+
+    .navbar:hover .logo svg {
+        margin-left: 11rem;
+    }
+
+    .navbar:hover .logo-text {
+        left: 0px;
+    }
+}
+
+.dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
+.light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+}
+
+.solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+}
+
+.theme-icon {
+    display: none;
+}
+
+.dark #darkIcon {
+    display: block;
+}
+
+.light #lightIcon {
+    display: block;
+}
+
+.solar #solarIcon {
+    display: block;
+}
+
+#to-top-btn {
+    z-index: 999999;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    background-color: #26152b;
+    color: rgba(211, 255, 202, 0.83);
+    cursor: pointer;
+    outline: none;
+    border: 3px solid rgba(211, 255, 202, 0.823);
+    border-radius: 50%;
+    transition-duration: 0.20s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+
+#to-top-btn:hover, #to-top-btn:focus {
+    background-color: rgba(211, 255, 202, 0.823);
+    color: #26152b;
+}
+
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+
+@keyframes btnExit {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+#footer, .copyrightText {
+    bottom: 0;
+    z-index: 99999;
+}
+
+:root {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
+.copyrightText {
+    bottom: 0;
+    width: 10%;
+}
+
+
+.workheader {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: -100px;
+    text-decoration: underline;
+}
+
+.desc {
+    margin-left: 360px;
+    margin-right: 230px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.apkfile {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 45px;
+}
+
+.apkfile:hover {
+    color: white;
+}
+
+/* works */
+
+.gameimg1 {
+    margin-top: -1000px;
+    margin-left: -20px;
+    margin-right: 270px;
+    height: 170px;
+    width: 430px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg2 {
+    margin-top: 20px;
+    margin-left: -230px;
+    margin-right: 150px;
+    height: 170px;
+    width: 430px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg3 {
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: 270px;
+    height: 170px;
+    width: 430px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg4 {
+    margin-top: 20px;
+    margin-left: -230px;
+    margin-right: 150px;
+    height: 170px;
+    width: 430px;
+    border: 3px solid white;
+    border-radius: 2%;
+}

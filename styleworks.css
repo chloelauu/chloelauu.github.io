@@ -334,8 +334,8 @@ header {
 }
 
 .desc {
-  margin-left: 270px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 0px;
   margin-top: -180px;
   margin-bottom: 150px;
   font-weight: bold;
@@ -343,8 +343,8 @@ header {
 }
 
 .desc2 {
-  margin-left: 270px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 0px;
   margin-top: -450px;
   margin-bottom: 150px;
   font-weight: bold;
@@ -352,8 +352,8 @@ header {
 }
 
 .desc4 {
-  margin-left: 270px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 100px;
   margin-top: -200px;
   margin-bottom: 150px;
   font-weight: bold;

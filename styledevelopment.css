@@ -335,8 +335,8 @@ header {
 }
 
 .desc {
-    margin-left: 360px;
-    margin-right: 230px;
+    margin-left: 490px;
+    margin-right: 500px;
     margin-top: 5px;
     margin-bottom: 130px;
     font-weight: bold;
@@ -346,7 +346,7 @@ header {
 .apkfile {
     font-size: 20px;
     font-weight: normal;
-    margin-left: 45px;
+    margin-left: 35px;
 }
 
 .apkfile:hover {
@@ -357,7 +357,7 @@ header {
 
 .gameimg1 {
     margin-top: -1000px;
-    margin-left: -20px;
+    margin-left: 110px;
     margin-right: 270px;
     height: 170px;
     width: 430px;
@@ -377,7 +377,7 @@ header {
 
 .gameimg3 {
     margin-top: 20px;
-    margin-left: -20px;
+    margin-left: 110px;
     margin-right: 270px;
     height: 170px;
     width: 430px;
@@ -393,4 +393,21 @@ header {
     width: 430px;
     border: 3px solid white;
     border-radius: 2%;
+}
+
+
+hr {
+    margin-top: 50px;
+    border: solid 2px white;
+    width: 1050px;
+    margin-left: 55px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.gameDesc {
+    margin-top: -100px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 10px;
 }

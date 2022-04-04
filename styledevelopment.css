@@ -257,7 +257,7 @@ header {
     font-size: 22px;
     width: 60px;
     height: 60px;
-    background-color: #26152b;
+    background-color: transparent;
     color: rgba(211, 255, 202, 0.83);
     cursor: pointer;
     outline: none;
@@ -270,7 +270,7 @@ header {
 
 #to-top-btn:hover, #to-top-btn:focus {
     background-color: rgba(211, 255, 202, 0.823);
-    color: #26152b;
+    color: #1c0522;
 }
 
 .btnEntrance {
@@ -353,6 +353,27 @@ header {
     color: white;
 }
 
+.apkfileapp {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: -23px;
+    width: 100%;
+}
+
+.apkfileapp:hover {
+    color: white;
+}
+
+
+.desc2 {
+    margin-left: 475px;
+    margin-right: 500px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 /* works */
 
 .gameimg1 {
@@ -400,7 +421,7 @@ hr {
     margin-top: 50px;
     border: solid 2px white;
     width: 1050px;
-    margin-left: 55px;
+    margin-left: 50px;
     border-radius: 2px;
     margin-bottom: 20px;
 }

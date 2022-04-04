@@ -26,7 +26,7 @@ body {
   font-size: 22px;
   width: 60px;
   height: 60px;
-  background-color: #1c0522;
+  background-color: transparent;
   color: rgba(211, 255, 202, 0.83);
   cursor: pointer;
   outline: none;
@@ -39,7 +39,7 @@ body {
 
 #to-top-btn:hover, #to-top-btn:focus {
   background-color: rgba(211, 255, 202, 0.823);
-  color: #1c0522cd;
+  color: #1c0522;
 }
 
 .btnEntrance {
@@ -78,11 +78,13 @@ body {
 }
 
 section h2 {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #fff;
   padding: 20px;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: 800;
   text-align: center;
+  font-style: italic;
 }
 
 section p {
@@ -94,6 +96,7 @@ section p {
   text-align: center;
 }
 
+
 .contactplats {
   /* text-align: center; */
   margin-left: 489px;
@@ -102,6 +105,66 @@ section p {
   display: grid;
   grid-template-columns: repeat(4, 50px);
   grid-gap: 30px;
+}
+
+.contactLogo {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  margin-left: 355px;
+}
+
+.contactLogo .fa-facebook {
+  margin-top: 18px;
+  margin-left: 19.5px;
+  font-size: 15px;
+}
+
+.contactLogo .contactInfo {
+  margin-top: -25px;
+  margin-left: 100px;
+  font-size: 15px;
+  color: white;
+}
+
+.contactLogo .fa-twitter {
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+}
+
+.contactLogo .fa-instagram {
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+}
+
+.contactLogo .fa-github {
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+}
+
+.contactLogo .fa-envelope {
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+}
+
+.contactLogo .fa-phone {
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 15px;
+}
+
+.contactLogo .contactInfo a {
+  color: white;
+  font-size: 18px;
+}
+
+.contactLogo .contactInfo a:hover {
+  color: rgba(211, 255, 202, 0.83);;
 }
 
 .contactplats li {

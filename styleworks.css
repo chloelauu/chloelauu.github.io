@@ -257,7 +257,7 @@ header {
   font-size: 22px;
   width: 60px;
   height: 60px;
-  background-color: #26152b;
+  background-color: transparent;
   color: rgba(211, 255, 202, 0.83);
   cursor: pointer;
   outline: none;
@@ -270,7 +270,7 @@ header {
 
 #to-top-btn:hover, #to-top-btn:focus {
   background-color: rgba(211, 255, 202, 0.823);
-  color: #26152b;
+  color: #1c0522;
 }
 
 .btnEntrance {
@@ -360,6 +360,33 @@ header {
   font-size: 40px;
 }
 
+.desc5 {
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: -290px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.desc6 {
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: -290px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.desc7 {
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: -500px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 
 
 
@@ -392,41 +419,30 @@ header {
   border-radius: 2%;
 }
 
-
-/* .work2 {
-  position: absolute;
-  margin-top: 19px;
-  margin-left: 10px;
-  height: 245px;
-  width: 500px;
-  border: 3px solid white;
-  border-radius: 2%;
-}
-
-.work3 {
-  margin-top: 20px;
-  margin-left: 10px;
-  height: 245px;
-  width: 500px;
-  border: 3px solid white;
-  border-radius: 2%;
-}
-
-.work4 {
-  position: relative;
-  margin-top: -5000px;
-  margin-left: 845px;
-  height: 501px;
-  width: 325px;
-  border: 3px solid white;
-  border-radius: 2%;
-}
-
 .work5 {
-  margin-top: -10px;
-  margin-left: 10px;
-  height: 300px;
-  width: 600px;
+  margin-top: 50px;
+  margin-left: -500px;
+  height: 500px;
+  width: 550px;
   border: 3px solid white;
   border-radius: 2%;
-} */
+}
+
+.work6 {
+  margin-top: 160px;
+  margin-left: -500px;
+  height: 500px;
+  width: 550px;
+  border: 3px solid white;
+  border-radius: 2%;
+}
+
+.work7 {
+  margin-top: 150px;
+  margin-left: -500px;
+  height: 500px;
+  width: 550px;
+  border: 3px solid white;
+  border-radius: 2%;
+  margin-bottom: 200px;
+}

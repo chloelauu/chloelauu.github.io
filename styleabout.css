@@ -65,6 +65,8 @@ border-radius: 5px;
     padding: 10px 0 0;
     color: #fff;
     margin-left: 202px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .box:hover {
@@ -80,7 +82,7 @@ border-radius: 5px;
     font-size: 22px;
     width: 60px;
     height: 60px;
-    background-color: #26152b;
+    background-color: transparent;
     color: rgba(211, 255, 202, 0.83);
     cursor: pointer;
     outline: none;
@@ -93,7 +95,7 @@ border-radius: 5px;
 
 #to-top-btn:hover, #to-top-btn:focus {
     background-color: rgba(211, 255, 202, 0.823);
-    color: #26152b;
+    color:#1c0522;
 }
 
 .btnEntrance {

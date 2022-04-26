@@ -334,16 +334,16 @@ header {
 }
 
 .desc {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 0px;
-  margin-top: -180px;
+  margin-top: -220px;
   margin-bottom: 150px;
   font-weight: bold;
   font-size: 40px;
 }
 
 .desc2 {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 0px;
   margin-top: -450px;
   margin-bottom: 150px;
@@ -352,7 +352,7 @@ header {
 }
 
 .desc4 {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 100px;
   margin-top: -200px;
   margin-bottom: 150px;
@@ -361,7 +361,7 @@ header {
 }
 
 .desc5 {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 100px;
   margin-top: -290px;
   margin-bottom: 150px;
@@ -370,7 +370,7 @@ header {
 }
 
 .desc6 {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 100px;
   margin-top: -290px;
   margin-bottom: 150px;
@@ -379,7 +379,7 @@ header {
 }
 
 .desc7 {
-  margin-left: 150px;
+  margin-left: 120px;
   margin-right: 100px;
   margin-top: -500px;
   margin-bottom: 150px;
@@ -445,4 +445,16 @@ header {
   border: 3px solid white;
   border-radius: 2%;
   margin-bottom: 200px;
+}
+
+.subDesc1 {
+  margin-left: 120px;
+  margin-top: -140px;
+  margin-bottom: 130px;
+}
+
+.subDesc2 {
+  margin-left: 120px;
+  margin-top: -140px;
+  margin-bottom: 180px;
 }

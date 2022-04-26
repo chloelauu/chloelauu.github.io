@@ -360,6 +360,18 @@ header {
     width: 100%;
 }
 
+.applink {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 12px;
+    width: 100%;
+}
+
+.applink:hover {
+    color: white;
+}
+
+
 .apkfileapp:hover {
     color: white;
 }
@@ -412,6 +424,45 @@ header {
     margin-right: 150px;
     height: 250px;
     width: 430px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg5 {
+    margin-top: 20px;
+    margin-left: 228px;
+    margin-right: 270px;
+    height: 350px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg6 {
+    margin-top: 20px;
+    margin-left: -230px;
+    margin-right: 150px;
+    height: 350px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg7 {
+    margin-top: 50px;
+    margin-left: 228px;
+    margin-right: 270px;
+    height: 350px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius: 2%;
+}
+
+.gameimg8 {
+    margin-top: 20px;
+    margin-left: -230px;
+    height: 350px;
+    width: 300px;
     border: 3px solid white;
     border-radius: 2%;
 }

@@ -55,15 +55,15 @@ nav::-webkit-scrollbar-thumb {
 
 main {
     margin-top: 50px;
-    margin-left: 5rem;
+    margin-left: -900px;
     padding: 1rem;
     color: #fff;
 }
 
 header {
     position: fixed;
-    margin-left: 627px;
-    margin-top: 12px;
+    margin-left:882px;
+    margin-top: 13px;
 }
 
 .navbar {
@@ -327,16 +327,61 @@ header {
 }
 
 
+hr {
+    margin-top: 80px;
+    border: solid 2px white;
+    width: 1050px;
+    margin-left: -380px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
 .workheader {
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-left: -100px;
+    margin-left: -150px;
     text-decoration: underline;
 }
 
 .desc {
-    margin-left: 490px;
+    margin-left: 80px;
     margin-right: 500px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.desc2 {
+    margin-left: 150px;
+    margin-right: 500px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.desc3 {
+    margin-left: 150px;
+    margin-right: 500px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.desc4 {
+    margin-left: 145px;
+    margin-right: 500px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.desc5 {
+    margin-left: 240px;
+    margin-right: 510px;
     margin-top: 5px;
     margin-bottom: 130px;
     font-weight: bold;
@@ -346,7 +391,8 @@ header {
 .apkfile {
     font-size: 20px;
     font-weight: normal;
-    margin-left: 35px;
+    margin-left:28px;
+    color:rgba(185, 248, 172, 0.823);
 }
 
 .apkfile:hover {
@@ -356,14 +402,16 @@ header {
 .apkfileapp {
     font-size: 20px;
     font-weight: normal;
-    margin-left: -23px;
+    margin-left: -20px;
+    color:rgba(185, 248, 172, 0.823);
     width: 100%;
 }
 
 .applink {
     font-size: 20px;
     font-weight: normal;
-    margin-left: 12px;
+    margin-left: 13px;
+    color:rgba(185, 248, 172, 0.823);
     width: 100%;
 }
 
@@ -376,21 +424,11 @@ header {
     color: white;
 }
 
-
-.desc2 {
-    margin-left: 475px;
-    margin-right: 500px;
-    margin-top: 5px;
-    margin-bottom: 130px;
-    font-weight: bold;
-    font-size: 35px;
-}
-
 /* works */
 
 .gameimg1 {
     margin-top: 20px;
-    margin-left: 105px;
+    margin-left: -290px;
     margin-right: 270px;
     height: 250px;
     width: 430px;
@@ -410,7 +448,7 @@ header {
 
 .gameimg3 {
     margin-top: 20px;
-    margin-left: 105px;
+    margin-left: -290px;
     margin-right: 270px;
     height: 250px;
     width: 430px;
@@ -430,7 +468,7 @@ header {
 
 .gameimg5 {
     margin-top: 20px;
-    margin-left: 228px;
+    margin-left: -150px;
     margin-right: 270px;
     height: 350px;
     width: 300px;
@@ -450,7 +488,7 @@ header {
 
 .gameimg7 {
     margin-top: 50px;
-    margin-left: 228px;
+    margin-left: -150px;
     margin-right: 270px;
     height: 350px;
     width: 300px;
@@ -467,20 +505,10 @@ header {
     border-radius: 2%;
 }
 
-
-hr {
-    margin-top: 50px;
-    border: solid 2px white;
-    width: 1050px;
-    margin-left: 50px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-}
-
 .gameDesc {
     margin-top: -100px;
     word-wrap: break-word;
     text-align: center;
     margin-bottom: 10px;
-    margin-left: -40px;
+    margin-left:-520px;
 }

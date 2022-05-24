@@ -23,7 +23,7 @@ body {
     text-align: left;
     position: absolute;
     top: 370px;
-    left: 640px;
+    left: 725px;
     transform: translate(-50%, -50%);
     padding: 20px;
     box-sizing: border-box;
@@ -149,7 +149,8 @@ border-radius: 5px;
 }
 
 .skillsec .fa {
-    margin-left: 615px;
+    margin-left: 705px;
+    margin-top: 15px;
     font-size: 50px;
     color: #fff;
 }
@@ -246,11 +247,12 @@ border-radius: 5px;
     font-size: 50px;
     letter-spacing: 19px;
     color: #fff;
-    margin-left: -25px;
+    margin-left: 5px;
 }
 
 .sampleworks .fa {
-    margin-left: 595px;
+    margin-left: 705px;
+    margin-top: 15px;
     font-size: 50px;
     color: #fff;
 }
@@ -261,7 +263,7 @@ border-radius: 5px;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 40px;
-    margin-left: 225px;
+    margin-left: 345px;
 }
 
 .slides {

@@ -331,7 +331,7 @@ hr {
     margin-top: 80px;
     border: solid 2px white;
     width: 1050px;
-    margin-left: -380px;
+    margin-left: 170px;
     border-radius: 2px;
     margin-bottom: 30px;
 }
@@ -344,7 +344,7 @@ hr {
 }
 
 .desc {
-    margin-left: 80px;
+    margin-left: 600px;
     margin-right: 500px;
     margin-top: 5px;
     margin-bottom: 130px;
@@ -429,7 +429,7 @@ hr {
 
 .gameimg1 {
     margin-top: 20px;
-    margin-left: -290px;
+    margin-left: 240px;
     margin-right: 270px;
     height: 250px;
     width: 430px;
@@ -449,7 +449,7 @@ hr {
 
 .gameimg3 {
     margin-top: 20px;
-    margin-left: -290px;
+    margin-left: 240px;
     margin-right: 270px;
     height: 250px;
     width: 430px;
@@ -469,7 +469,7 @@ hr {
 
 .gameimg5 {
     margin-top: 20px;
-    margin-left: -150px;
+    margin-left: 370px;
     margin-right: 270px;
     height: 350px;
     width: 300px;
@@ -489,7 +489,7 @@ hr {
 
 .gameimg7 {
     margin-top: 50px;
-    margin-left: -150px;
+    margin-left: 370px;
     margin-right: 270px;
     height: 350px;
     width: 300px;
@@ -507,9 +507,12 @@ hr {
 }
 
 .gameDesc {
-    margin-top: -100px;
     word-wrap: break-word;
     text-align: center;
-    margin-bottom: 10px;
-    margin-left:-520px;
+    margin-left: 80px;
+    margin-right: -400px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 20px;
 }

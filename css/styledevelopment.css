@@ -55,7 +55,7 @@ nav::-webkit-scrollbar-thumb {
 
 main {
     margin-top: 50px;
-    margin-left: -900px;
+    margin-left: 80px;
     padding: 1rem;
     color: #fff;
 }
@@ -351,6 +351,7 @@ hr {
     font-weight: bold;
     font-size: 35px;
 }
+
 
 .desc2 {
     margin-left: 150px;
